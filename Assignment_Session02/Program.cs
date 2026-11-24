@@ -41,19 +41,27 @@ namespace Assignment_Session02
 
             #region Question 4
             //Q04.  Write code that divides 10 by 0 inside a try block, catches the exception, prints "Cannot divide by zero", and then prints "Done" in a finally block
-            try
-            {
-                int zero = 0;
-                int result = 10 / zero;
-            }
-            catch (Exception)
-            {
+            //try
+            //{
+            //    int zero = 0;
+            //    int result = 10 / zero;
+            //}
+            //catch (Exception)
+            //{
 
-                Console.WriteLine("Cannot divide by zero");
-            }
-            finally {
-                Console.WriteLine("Done");
-            }
+            //    Console.WriteLine("Cannot divide by zero");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Done");
+            //}
+            #endregion
+
+            #region Question 5
+            //Q05.  Declare an int pages = 300; then store it in a double variable without using a cast
+            int pages = 300;
+            double Pages = pages;
+            Console.WriteLine(Pages);
             #endregion
         }
     }
